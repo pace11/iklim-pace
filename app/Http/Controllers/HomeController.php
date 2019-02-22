@@ -49,8 +49,8 @@ class HomeController extends Controller
             $output .= "</tbody>";
             $output .= "<tfoot>";
             $output .= "<tr><th>Rata-Rata</th>";
-            $output .= "<th>".json_encode(round($tempCity['sumTemp']/5),2)."</th>";
-            $output .= "<th>".json_encode(round($tempCity['sumTempDiff']/5),2)."</th></tr>";
+            $output .= "<th>".json_encode(round($tempCity['sumTemp']/count($getWeather->list)),2)."</th>";
+            $output .= "<th>".json_encode(round($tempCity['sumTempDiff']/count($getWeather->list)),2)."</th></tr>";
             $output .= "</tfoot>";
 
             return $output;

@@ -40,6 +40,9 @@
                                                 <option value="1642907">Jakarta</option>
                                                 <option value="1880251">Singapore</option>
                                                 <option value="1609350">Bangkok</option>
+                                                <option value="1820814">Brunei Darussalam</option>
+                                                <option value="1562822">Vietnam</option>
+                                                <option value="1735161">Malaysia</option>
                                             </select>
                                         </div>
                                         <div class="icon is-small is-left">
